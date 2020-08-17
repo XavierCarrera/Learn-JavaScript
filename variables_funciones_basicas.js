@@ -23,3 +23,13 @@ function saludo(persona){
 
 saludo(xavier)
 saludo(dario)
+
+function cumpleanos(persona){
+    return {
+        ...persona,
+        edad: persona.edad + 1
+    }
+    persona.edad += 1
+}
+
+
